@@ -1,0 +1,133 @@
+.form-inline{
+    margin-left: 30px;
+}
+
+.form-inline input{
+    border-radius: 30px;
+}
+
+/* Jumbotron */
+.jumbotron{
+    height: 600px;
+    background-image: url(donuts.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.jumbotron h3{
+    margin-top: 100px;
+}
+
+.jumbotron img{
+    border-radius: 50%;
+    float: left;
+}
+
+.tombol{
+    border-radius: 30px;
+}
+
+/* Bagian1 */
+.bagian1{
+    background-image: url(img2.png);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.bagian1 h3{
+    margin-left: -18px;
+}
+
+/* Bagian2 */
+.bagian2{
+    background-image: url(img4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-top: 30px;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.bagian2 h3{
+    text-align: center;
+    margin-top: 150px;
+}
+
+/* Bagian 3 */
+.bagian3{
+    margin-top: 450px;
+    background-color: whitesmoke;
+    height: 600px;
+}
+
+/* Footer */
+.footer{
+    margin-top: 60px;
+    text-align: center;
+    height: 100px;
+}
+
+.footer ul li{
+    list-style: none;
+}
+
+li{
+    margin-left: -37px;
+}
+
+
+
+/* Desktop Version */
+@media(min-width:992px){
+    .jumbotron{
+        margin-top: -70px;
+        background-image: url(donuts.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: left;
+    }
+
+    /* Bagian 1 */
+    .bagian1{
+        background-image: url(img2.png);
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: left;
+    }
+
+    /* Bagian2 */
+    .bagian2{
+        text-align: left;
+        margin-top: 100px;
+    }
+    .bagian2 h3{
+        text-align: left;
+    }
+
+    /* Bagian 3 */
+.bagian3{
+    margin-top: 210px;
+    background-color: whitesmoke;
+    height: 300px;
+}
+
+    /* Footer */
+    .footer{
+        height: 100px;
+    }
+
+    .footer ul li{
+        list-style: none;
+        display: inline-block;
+    }
+
+    li{
+        margin-left: 30px;
+    }
+
+}
